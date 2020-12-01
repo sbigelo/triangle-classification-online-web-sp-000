@@ -20,7 +20,7 @@ class Triangle
   end
   
   def validate
-    its = [(e + i > s), (s + i > e), (e + s > i)]
+    real_triangle = [(e + i > s), (s + i > e), (e + s > i)]
     [e, i, s].each do |side|
       real_triangle << false if side <= 0 
     raise TriangleError if real_triangle.include?(false)
