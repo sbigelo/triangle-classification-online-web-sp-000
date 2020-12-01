@@ -11,7 +11,7 @@ class Triangle
     validate
     if e == i && i == s
       :equilateral
-    elsif i == s 
+    elsif i == s ||  
       :isosceles
       
     end
