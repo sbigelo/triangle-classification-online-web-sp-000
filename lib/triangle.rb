@@ -9,10 +9,11 @@ class Triangle
   
   def kind
     validate
+    
   end
   
   def validate
-    its = [()]
+    its = [(e + i > s)]
   end
   
   class TriangleError < StandardError
