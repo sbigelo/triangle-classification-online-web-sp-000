@@ -20,7 +20,10 @@ class Triangle
   end
   
   def validate
-    its = [(e + i > s)]
+    its = [(e + i > s), (s + i > e), (e + s > i)]
+    its.each do |key|
+      
+    end
   end
   
   class TriangleError < StandardError
