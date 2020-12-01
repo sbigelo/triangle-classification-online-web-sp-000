@@ -21,7 +21,7 @@ class Triangle
   
   def validate
     its = [(e + i > s), (s + i > e), (e + s > i)]
-    its.each do |key|
+    [e, i, s].each do |key|
       
     end
   end
