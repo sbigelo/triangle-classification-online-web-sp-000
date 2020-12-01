@@ -10,7 +10,7 @@ class Triangle
   def kind
     validate
     if  &&
-      :e
+      :equilateral
       
     end
   end
