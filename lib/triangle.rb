@@ -9,7 +9,7 @@ class Triangle
   
   def kind
     validate
-    if 
+    if  &&
       :e
       
     end
