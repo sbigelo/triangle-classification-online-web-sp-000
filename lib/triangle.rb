@@ -9,7 +9,9 @@ class Triangle
   
   def kind
     validate
-    
+    if 
+      
+    end
   end
   
   def validate
