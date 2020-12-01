@@ -9,8 +9,10 @@ class Triangle
   
   def kind
     validate
-    if  &&
+    if e == i && i == s
       :equilateral
+    elsif i == s 
+      :isosceles
       
     end
   end
