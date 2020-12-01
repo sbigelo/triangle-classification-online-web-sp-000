@@ -12,7 +12,7 @@ class Triangle
   end
   
   def validate
-    its = 
+    its = [()]
   end
   
   class TriangleError < StandardError
