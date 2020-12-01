@@ -8,10 +8,12 @@ class Triangle
   end
   
   def kind
-    
+    validate
   end
   
-  
+  def validate
+    its = 
+  end
   
   class TriangleError < StandardError
     
